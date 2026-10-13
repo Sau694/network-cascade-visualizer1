@@ -1,0 +1,28 @@
+# Node & Frontend
+node_modules/
+dist/
+build/
+.output/
+.nitro/
+.wrangler/
+*.log
+
+# Python & Backend
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Environment files
+.env
+.env.*
+!.env.example
+.env.local
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
