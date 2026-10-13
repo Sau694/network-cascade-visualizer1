@@ -51,7 +51,7 @@ export function SettingsView({
   };
 
   const handleResetApiUrl = () => {
-    const defaultUrl = "http://127.0.0.1:8000/api";
+    const defaultUrl = "https://network-cascade-backend.onrender.com/api";
     setApiUrl(defaultUrl);
     setCustomApiUrl(null);
     setHealthStatus("idle");
@@ -85,7 +85,7 @@ export function SettingsView({
                   setHealthStatus("idle");
                 }}
                 className={cn(selectCls, "h-9 flex-1 font-mono text-[12px]")}
-                placeholder="http://127.0.0.1:8000/api"
+                placeholder="https://network-cascade-backend.onrender.com/api"
               />
               <div className="flex gap-2">
                 <button

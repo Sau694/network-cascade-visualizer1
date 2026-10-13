@@ -157,7 +157,7 @@ The application features a 3-tab workspace accessible via the left sidebar:
   - **Traversal Sequences**: Chronological BFS and DFS node evaluation traces.
 
 ### 3. Settings Workspace
-- **API Endpoint Configuration**: Easily configure or switch the backend URL (defaults to `http://127.0.0.1:8000/api`).
+- **API Endpoint Configuration**: Easily configure or switch the backend URL (defaults to live Render backend `https://network-cascade-backend.onrender.com/api` with local fallback `http://127.0.0.1:8000/api`).
 - **Connection Test**: One-click health ping checking FastAPI connectivity with real-time status alerts.
 - **Defaults**: Customize simulation step limits and reset simulation engine state.
 
